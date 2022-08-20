@@ -5,15 +5,15 @@ on:
 
 env:
   # (required) twrp manifest 
-  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git
+  MANIFEST: https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni
   # (required) manifest branch 
-  BRANCH: twrp-11
+  BRANCH: twrp-9.0
   # (required) device codename i.e: sweet mojito.. 
-  DEVICE: m10lte
+  DEVICE: E7533
   # (required) device tree link with branch if exists
-  DT_LINK: https://github.com/SA-17/m10
+  DT_LINK: https://github.com/twrpdtgen/android_device_micromax_E7533
   # (required) who made your phone ? 
-  MANUFACTURER: samsung
+  MANUFACTURER: micromax
   # (required) recovery partiton = recovery, else (no recovery partition): boot 
   TARGET: recovery
   # dont change that
