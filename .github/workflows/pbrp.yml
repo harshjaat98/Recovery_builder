@@ -15,12 +15,12 @@ on:
 
 env:
   MANIFEST: https://github.com/PitchBlackTWRP/manifest_pb.git -b android-10.0
-  DEVICE: m10lte
-  DT_LINK: https://github.com/AndVer0/android_device_samsung_m10lte_pbrp
-  DT_PATH: device/samsung/m10lte
+  DEVICE: E7533
+  DT_LINK: https://github.com/twrpdtgen/android_device_micromax_E7533
+  DT_PATH: device/micromax/E7533
   TARGET: recoveryimage
   OT: omni_
-  TZ: Europe/London
+  TZ: Asia/India
 
 jobs:
   build:
