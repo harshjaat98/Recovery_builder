@@ -14,9 +14,9 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: https://github.com/PitchBlackTWRP/manifest_pb.git -b android-10.0
+  MANIFEST: https://github.com/PitchBlackTWRP/manifest_pb.git -b android-11.0
   DEVICE: E7533
-  DT_LINK: https://github.com/twrpdtgen/android_device_micromax_E7533
+  DT_LINK: https://github.com/harshjaat98/E7533-recovery-tree
   DT_PATH: device/micromax/E7533
   TARGET: recoveryimage
   OT: omni_
