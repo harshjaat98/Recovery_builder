@@ -14,7 +14,7 @@ on:
   workflow_dispatch:
 
 env:
-  MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-12.1
+  MANIFEST: https://github.com/PitchBlackRecoveryProject/manifest_pb -b android-11.0
   DEVICE: RMX2001
   DT_LINK: https://github.com/harshjaat98/android_device_realme_RMX2001-pbrp
   DT_PATH: device/realme/RMX2001
